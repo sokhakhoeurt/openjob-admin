@@ -71,12 +71,14 @@
             </div>
           </div>
         </div>
+        <NewApplicant></NewApplicant>
         <RecentJobPostCard></RecentJobPostCard>
       </div>
 </template>
 
 <script setup> 
 import RecentJobPostCard from './RecentJobPostCard.vue'
+import NewApplicant from './NewApplicant.vue'
 
 import {
   BriefcaseIcon,
