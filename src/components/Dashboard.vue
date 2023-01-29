@@ -15,7 +15,7 @@
 <template>
     <div class="mx-auto lg:max-w-none text-white">
         <h2 class="text-2xl font-bold">Dashboard</h2>
-        <div class="my-6 space-y-12 lg:grid lg:grid-cols-3 sm:grid sm:grid-cols-3 sm:gap-x-3 sm:space-y-0 sm:my-4 lg:gap-x-3 lg:space-y-0">
+        <div class="my-6 space-y-6 lg:grid lg:grid-cols-3 sm:grid sm:grid-cols-3 sm:gap-x-4 sm:gap-y-4 sm:space-y-0 sm:my-4 lg:gap-x-3 lg:space-y-0">
           <div class="overflow-hidden bg-gray-800 shadow rounded">
             <div class="px-4 py-5 flex flex-wrap">
               <div class="mr-3">
@@ -72,14 +72,14 @@
           </div>
         </div>
         <h2 class="text-2xl font-bold">Recent Job Posts</h2>
-        <div class="my-6 space-y-12 lg:grid lg:grid-cols-3 sm:grid sm:grid-cols-3 sm:gap-x-3 sm:space-y-0 lg:gap-x-3 lg:space-y-0">
-          <div class="overflow-hidden bg-gray-800 shadow rounded">
-            <div class="px-4 py-5 flex justify-between">
+        <div class="my-6 space-y-12 lg:grid lg:grid-cols-3 sm:grid sm:grid-cols-2 sm:gap-x-3 sm:space-y-0 lg:gap-x-3 lg:space-y-0">
+          <div class="overflow-hidden bg-gray-800 shadow rounded relative">
+            <div class="px-4 py-5">
               <div class="mb-1 max-w-2xl">
                 <h2 class=" text-1xl font-bold leading-6">Associate Software Engineer, Front-End</h2>
                 New Jersey
               </div>
-              <div class="order-last">
+              <div class="absolute right-3 top-2">
                 <!-- Job dropdown -->
                 <Menu as="div" class="relative mb-0">
                   <div>
@@ -101,31 +101,31 @@
                       </MenuItem>
                     </MenuItems>
                   </transition>
-                  <p class="max-w-2xl text-xs">6 days ago</p>
                 </Menu>
-                
+                <p class="max-w-2xl text-xs">6 days ago</p>
               </div>
             </div>
             <div class="px-4 py-5 bg-gray-700 text-xs">
               <div class="flex flex-wrap">
-                <div class="flex flex-wrap mr-1">
-                  <CurrencyDollarIcon class="h-4 w-4 flex-shrink-0 mr-1" aria-hidden="true"></CurrencyDollarIcon>
-                  <p class="text-1xl font-bold leading-6">
-                    90,000 - 11,000 USD
-                  </p>
+                <div class="flex flex-wrap mb-2">
+                  <CurrencyDollarIcon class="mr-1 ml-0 h-4 w-4 flex-shrink-0" aria-hidden="true"></CurrencyDollarIcon>
+                  90,000 - 11,000 USD
+                  <CurrencyDollarIcon class="ml-2 mr-1 h-4 w-4 flex-shrink-0" aria-hidden="true"></CurrencyDollarIcon>
+                  Experienced
                 </div>
-                <p class="mr-1 max-w-2xl">Experienced</p>
-                <p class="mr-1 max-w-2xl">Seasonal</p>
-                <p class="mr-1 max-w-2xl">15 Applications</p>
+                <div class="flex flex-wrap mb-3">
+                  <CurrencyDollarIcon class="mr-1 ml-0 h-4 w-4 flex-shrink-0" aria-hidden="true"></CurrencyDollarIcon>
+                  Seasonal
+                  <CurrencyDollarIcon class="ml-2 mr-1 h-4 w-4 flex-shrink-0" aria-hidden="true"></CurrencyDollarIcon>
+                  15 Applications
+                </div>
               </div>
-              <div class="max-w-2xl">The NBA is committed to providing a safe and healthy workplace. To safeguard our employees
+              <div class="max-w-2xl text-justify">The NBA is committed to providing a safe and healthy workplace. To safeguard our employees
                 and
                 their families, our
                 visitors and the broader community from COVID-19, and in consideration of recommendations from health authorities and
                 the NBA’s own advisors, any individual working onsite in our New York and New Jersey offices must be fully vaccinated
-                against COVID-19, including having received a booster when eligible. The NBA will discuss accommodations for
-                individuals
-                who cannot be vaccinated due to a medical reason or sincerely held religious belief, practice, or observance.</div>
+                against COVID-19, including having received a booster when eligible.</div>
             </div>
           </div>
         </div>

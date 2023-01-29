@@ -14,8 +14,8 @@
       <MainHeader :user=user />
     </div>
 
-    <main class="mb-auto">
-      <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+    <main class="mb-auto px-4 sm:px-4">
+      <div class="mx-auto max-w-7xl py-6 sm:px-0 lg:px-8">
         <!-- Replace with your content -->
             <Dashboard/>
         <!-- /End replace -->
