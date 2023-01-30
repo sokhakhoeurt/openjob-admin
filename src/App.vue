@@ -15,7 +15,7 @@
     </div>
 
     <main class="mb-auto px-4 sm:px-4">
-      <div class="mx-auto max-w-7xl py-4 sm:px-0 lg:px-8">
+      <div class="py-4 sm:px-0 lg:px-5">
         <!-- Replace with your content -->
             <Dashboard/>
         <!-- /End replace -->

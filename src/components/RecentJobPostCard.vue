@@ -15,8 +15,8 @@
                         <MenuButton
                             class="ml-auto flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                             <span class="sr-only">Open job</span>
-                            <EllipsisHorizontalIcon class="p-1 rounded h-8 w-8 flex-shrink-0" aria-hidden="true">
-                            </EllipsisHorizontalIcon>
+                            <EllipsisVerticalIcon class="p-1 rounded h-8 w-8 flex-shrink-0" aria-hidden="true">
+                            </EllipsisVerticalIcon>
                         </MenuButton>
                     </div>
                     <transition enter-active-class="transition ease-out duration-100"
@@ -77,8 +77,8 @@
                         <MenuButton
                             class="ml-auto flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                             <span class="sr-only">Open job</span>
-                            <EllipsisHorizontalIcon class="p-1 rounded h-8 w-8 flex-shrink-0" aria-hidden="true">
-                            </EllipsisHorizontalIcon>
+                            <EllipsisVerticalIcon class="p-1 rounded h-8 w-8 flex-shrink-0" aria-hidden="true">
+                            </EllipsisVerticalIcon>
                         </MenuButton>
                     </div>
                     <transition enter-active-class="transition ease-out duration-100"
@@ -142,8 +142,8 @@
                         <MenuButton
                             class="ml-auto flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                             <span class="sr-only">Open job</span>
-                            <EllipsisHorizontalIcon class="p-1 rounded h-8 w-8 flex-shrink-0" aria-hidden="true">
-                            </EllipsisHorizontalIcon>
+                            <EllipsisVerticalIcon class="p-1 rounded h-8 w-8 flex-shrink-0" aria-hidden="true">
+                            </EllipsisVerticalIcon>
                         </MenuButton>
                     </div>
                     <transition enter-active-class="transition ease-out duration-100"
@@ -199,7 +199,7 @@
 
 <script setup>
 import {
-    EllipsisHorizontalIcon,
+    EllipsisVerticalIcon,
     CurrencyDollarIcon,
     BriefcaseIcon,
     ClockIcon,
