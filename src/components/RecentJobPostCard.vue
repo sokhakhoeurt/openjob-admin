@@ -1,7 +1,7 @@
 <template>
-<h2 class="text-2xl font-bold">Recent Job Posts</h2>
+<h2 class="text-2xl my-6 font-bold">Recent Job Posts</h2>
 <div
-    class="my-6 space-y-6 lg:grid lg:grid-cols-3 sm:grid sm:grid-cols-3 sm:gap-x-4 sm:gap-y-4 sm:space-y-0 lg:gap-x-3 lg:space-y-0">
+    class="my-6 space-y-6 lg:grid lg:grid-cols-3 sm:grid sm:grid-cols-3 sm:gap-x-4 sm:gap-y-4 sm:space-y-0 lg:gap-x-4 lg:space-y-0">
     <div class="overflow-hidden bg-gray-800 shadow rounded relative">
         <div class="px-4 py-5">
             <div class="mb-1 max-w-2xl">

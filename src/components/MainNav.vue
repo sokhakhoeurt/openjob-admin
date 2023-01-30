@@ -85,9 +85,9 @@ defineProps({
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
-  { name: 'Jobs', href: '#', current: false },
-  { name: 'Applicants', href: '#', current: false },
-  { name: 'Profile', href: '#', current: false },
+  { name: 'Job Listing', href: '#', current: false },
+  { name: 'All Applicants', href: '#', current: false },
+  { name: 'Company Profile', href: '#', current: false },
 ]
 
 const userNavigation = [
