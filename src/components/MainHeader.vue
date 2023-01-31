@@ -49,8 +49,6 @@
 import {
   BriefcaseIcon,
   CalendarIcon,
-  ChevronDownIcon,
-  CurrencyDollarIcon,
   MapPinIcon,
   EnvelopeIcon,
 } from '@heroicons/vue/20/solid'
