@@ -13,9 +13,7 @@
   ```
 -->
 <template>
-
-  <div class="flex flex-col h-screen justify-between min-h-full">
-
+  <div class="flex flex-col h-screen justify-between min-h-ful">
     <div>
       <MainNav :user=user />
       <MainHeader :user=user />
