@@ -1,52 +1,55 @@
 <!DOCTYPE html>
 <html lang="en" class="h-full bg-gray-600">
-  <head>
-    <link rel="preconnect" href="http://localhost:5173/">
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue</title>
-  </head>
-  <body class="h-full">
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-    <script>
-      function lzload() {
-        var imgDefer = document.getElementsByTagName('img');
-        for (var i = 0; i < imgDefer.length; i++) {
-          if (imgDefer[i].getAttribute('data-src')) {
-            var boundingClientRect = imgDefer[i].getBoundingClientRect();
-            if(boundingClientRect.top < window.innerHeight) {
-              imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
-              imgDefer[i].removeAttribute("data-src");
-            }
+
+<head>
+  <link rel="preconnect" href="http://localhost:5173/">
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + Vue</title>
+</head>
+
+<body class="h-full bg-gray-600">
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+  <script>
+    function lzload() {
+      var imgDefer = document.getElementsByTagName('img');
+      for (var i = 0; i < imgDefer.length; i++) {
+        if (imgDefer[i].getAttribute('data-src')) {
+          var boundingClientRect = imgDefer[i].getBoundingClientRect();
+          if (boundingClientRect.top < window.innerHeight) {
+            imgDefer[i].setAttribute('src', imgDefer[i].getAttribute('data-src'));
+            imgDefer[i].removeAttribute("data-src");
           }
         }
       }
-      
-      window.addEventListener('scroll', lzload);
-      window.addEventListener('load', lzload);
-      window.addEventListener('resize', lzload);
-      
+    }
+
+    window.addEventListener('scroll', lzload);
+    window.addEventListener('load', lzload);
+    window.addEventListener('resize', lzload);
+
 
       // Offload third party javascript tag
-      /*window.addEventListener(
-        'scroll',
-        function () {
-          setTimeout(function () {
-            ;(function () {
-              var st = document.createElement('script')
-              st.type = 'text/javascript'
-              st.async = true
-              st.src = 'MY_URL'
-              var s = document.getElementsByTagName('script')[0]
-              s.parentNode.insertBefore(st, s)
-            })()
-          }, 100)
-        },
-        { once: true }
-      )
-      **/
-      </script>
-  </body>
+    /*window.addEventListener(
+      'scroll',
+      function () {
+        setTimeout(function () {
+          ;(function () {
+            var st = document.createElement('script')
+            st.type = 'text/javascript'
+            st.async = true
+            st.src = 'MY_URL'
+            var s = document.getElementsByTagName('script')[0]
+            s.parentNode.insertBefore(st, s)
+          })()
+        }, 100)
+      },
+      { once: true }
+    )
+    **/
+  </script>
+</body>
+
 </html>
