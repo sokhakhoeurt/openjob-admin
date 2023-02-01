@@ -9,10 +9,10 @@
             </div>
             <h3 class="mr-auto text-3xl font-bold break-words leading-none">Hello {{ user.name }}!</h3>
             <div class="pt-4 hidden sm:block">
-              <a href="/post-new-job"
+              <router-link :to="'/post-new-job'"
                 class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700">
                 Post New Job
-              </a>
+              </router-link>
             </div>
           </div>
           <div class="mt-1 flex flex-col sm:mt-0 sm:flex-row sm:flex-wrap sm:space-x-4">
@@ -34,10 +34,10 @@
             </div>
           </div>
           <div class="pt-4 block sm:hidden">
-            <a href="/post-new-job"
+            <router-link :to="'/post-new-job'"
               class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700">
               Post New Job
-            </a>
+            </router-link>
           </div>
         </div>
       </div>

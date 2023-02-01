@@ -38,11 +38,12 @@
                 </div>
               </div>
               <div class=" bg-gray-900">
-                <a href="#" class="my-4 py-4 font-large font-bold w-full text-white hover:text-gray-400">
+                <router-link :to="'/job-listing'"
+                  class="my-4 py-4 font-large font-bold w-full text-white hover:text-gray-400">
                   <div class="px-4 py-4 sm:px-6">
                     View All
                   </div>
-                </a>
+                </router-link>
               </div>
             </div>
             <div class="overflow-hidden bg-gray-800 shadow rounded">
@@ -57,11 +58,12 @@
                 </div>
               </div>
               <div class="bg-gray-900">
-                <a href="#" class="my-4 py-4 font-large font-bold w-full text-white hover:text-gray-400">
+                <router-link :to="'/all-applicants'"
+                  class="my-4 py-4 font-large font-bold w-full text-white hover:text-gray-400">
                   <div class="px-4 py-4 sm:px-6">
                     View All
                   </div>
-                </a>
+                </router-link>
               </div>
             </div>
             <div class="overflow-hidden bg-gray-800 shadow rounded">
@@ -76,11 +78,12 @@
                 </div>
               </div>
               <div class="bg-gray-900">
-                <a href="#" class="my-4 py-4 font-large font-bold w-full text-white hover:text-gray-400">
+                <router-link :to="'/job-listing'"
+                  class="my-4 py-4 font-large font-bold w-full text-white hover:text-gray-400">
                   <div class="px-4 py-4 sm:px-6">
                     View All
                   </div>
-                </a>
+                </router-link>
               </div>
             </div>
           </div>
